@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Translator translator = new Translator();
+        System.out.println(translator.translate("<human --> lifeform>."));
     }
 }
